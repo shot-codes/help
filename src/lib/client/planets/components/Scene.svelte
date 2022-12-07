@@ -1,7 +1,12 @@
 <script lang="ts">
+  import type { System } from "$lib/common/types";
   import { InteractiveObject, OrbitControls, T } from "@threlte/core";
   import { spring } from "svelte/motion";
   import { degToRad } from "three/src/math/MathUtils";
+
+  export let system: System;
+
+  console.log(system);
 
   const scale = spring(1);
 </script>

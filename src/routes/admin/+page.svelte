@@ -7,6 +7,8 @@
 
   export let form: ActionData;
   export let data: PageData;
+
+  console.log(data);
 </script>
 
 <div class="grid h-full w-full place-content-center">
